@@ -3,4 +3,5 @@
 2. cat /etc/passwd is a script that displays the '/etc/passwd' of a file
 3. cat /etc/passwd /etc/hosts  is a script that displays both '/etc/passwd /etc/hosts'
 4. tail /etc/passwd is a script that displays the last 10lines of the '/etc/passwd' file
-5. 
+5. head /etc/passwd is a script that displays the first 10lines of the '/etc/passwd ' file
+6.
