@@ -1,4 +1,5 @@
-1. echo "Hello, World" is a script that prints "Hello, World" 
-2. echo '"(Ôo)'\' is a script that displays a confused smiley. the single quotes used is to escape special characters
-3. cat /etc/passwd is a script that displays the '/etc/passwd' of a file
-4.  
+0. echo "Hello, World" is a script that prints "Hello, World" 
+1. echo '"(Ôo)'\' is a script that displays a confused smiley. the single quotes used is to escape special characters
+2. cat /etc/passwd is a script that displays the '/etc/passwd' of a file
+3. cat /etc/passwd /etc/hosts  is a script that displays both '/etc/passwd /etc/hosts'
+4. 
