@@ -8,4 +8,5 @@
 7. echo "Best School" > echo "Best School" >  \\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) is a script that creates a file  named  \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School. The special characters are being escaped using backslashes, single and double quotes respectively.
 8. ls -la > ls_cwd_content is a scipt that overwrites into the file ls_cwd_content a result of the ls -la command
 9. tail -n | iacta >> iacta is script that duplicates the last line of the file iacta which will be in a working directory.
-10.                                                                                                       
+10. find . -type -name "*.js" -delete is a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+                                                                                          
