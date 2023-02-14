@@ -12,4 +12,5 @@
 11. find . -type d -not -name '.' | wc -l is a script that counts the number of directories and sub-directories in the current directory. The current and parent directories should not be taken into account and hidden directories should be counted
 12. ls -t1 | head is a script that displays the 10 newest files in the current directory.
 13. sort | uniq -u is a script that takes a list of words as input and prints only words that appear exactly once.
-14.                                                                                            
+14. grep -i "root" /etc/passwd is a script that display lines containing the pattern “root” from the file /etc/passwd.
+15.                                                                                            
