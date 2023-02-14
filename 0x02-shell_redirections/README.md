@@ -16,4 +16,5 @@
 15. grep -i "bin" /etc/passwd is a script that display the number of lines that contain the pattern “bin” in the file /etc/passwd.
 16. grep -iA 3 "root" /etc/passwd is a script that display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 17. grep -v "bin" /etc/passwd is a script that display all the lines in the file /etc/passwd that do not contain the pattern “bin".
-18.                                                                                            
+18. grep -1 '^[a-z]' /etc/ssh/sshd_config is a script that display all lines of the file /etc/ssh/sshd_config starting with a letter.
+19.                                                                                            
