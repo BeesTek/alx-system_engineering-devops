@@ -3,4 +3,5 @@
 2.PATH=$PATH /action is a script that adds /action into PATH. /action being the last directory the shell looks into when looking for a program.
 3.echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) is a script that counts the number of directories in a path.
 4.printenv is a script that lists environment variables.
-5.
+5.set is a script that lists all local and environment variables and functions.
+6. 
