@@ -6,4 +6,5 @@
 5.set is a script that lists all local and environment variables and functions.
 6. BEST="School" is a script that creates a new global variable.
 7. export BEST="School" is a script that creates a global variable.
-8.   
+8. echo $(($TRUEKNOWLEDGE +128)) is a script that prints the result of 128 with the value stored in the environment variable TRUEKNOWLEDGE.
+9.   
