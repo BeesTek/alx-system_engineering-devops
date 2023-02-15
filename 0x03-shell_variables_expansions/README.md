@@ -5,4 +5,5 @@
 4.printenv is a script that lists environment variables.
 5.set is a script that lists all local and environment variables and functions.
 6. BEST="School" is a script that creates a new global variable.
-7.  
+7. export BEST="School" is a script that creates a global variable.
+8.   
