@@ -13,4 +13,5 @@
 12. echo (a..z)(a..z) | tr """\n" | grep -v "oo" is a script that prints all possible combinations of two letters, except oo.
 13. printf "%.2f"$NUM | sort is a script that prints a number with two decimal places, followed by a new line. 
 14. printf %x'\n' $ DECIMAL is  a script that converts a number from base 10 to base 16.
-15.         
+15. tr `echo(a..z) | tr -d ''``echo(n..z) $(echo(a..m) | tr -d''` | tr `echo(A..Z)| tr -d ''``echo(N..Z) $(echo[A..N] | tr -d''` is a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+16.          
