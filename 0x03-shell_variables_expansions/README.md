@@ -8,4 +8,6 @@
 7. export BEST="School" is a script that creates a global variable.
 8. echo $(($TRUEKNOWLEDGE +128)) is a script that prints the result of 128 with the value stored in the environment variable TRUEKNOWLEDGE.
 9. echo $(($POWER / $DIVIDE)) is a script that prints the result of POWER divided by DIVIDE.
-10. echo $(($BREATH**$LOVE)) is a script that displays the result of BREATH to the power LOVE.     
+10. echo $(($BREATH**$LOVE)) is a script that displays the result of BREATH to the power LOVE.
+11. echo $((2#BINARY)o) is a script that converts a number from base 2 to base 10.
+12.      
